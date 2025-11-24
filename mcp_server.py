@@ -281,6 +281,10 @@ def newsdata_fetch(query: Optional[str]=None, language:Optional[str]=None, count
 # -------------------------
 # FastAPI endpoints
 # -------------------------
+@app.get("/")
+def home():
+    return {"status": "MCP Server Running", "message": "Go to /docs for API documentation"}
+
 @app.post("/fetch_news")
 def fetch_news(payload: dict):
     """
