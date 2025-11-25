@@ -1,4 +1,31 @@
-# TrendingNews
+
+**Important:**  
+
+- The `Then:` and the numbered list should be **outside** the Python code block.  
+- So you must have:
+
+  1. ``` ```python ``` to open the code block for `state = {...}`  
+  2. Then the `state = { ... }` lines  
+  3. Then a closing ``` ``` ``` (three backticks)  
+  4. After that, on a new line: `Then:` and the 1–4 list
+
+If you paste the whole README as I gave (inside `README.md`), the “Then:” section lives under:
+
+> `## 2. End-to-End Flow` → `### 2.1 Sequence Overview`
+
+You don’t need to put it in any other file. Everything inside that big ```markdown``` block should go directly into `README.md` at the root of your project.
+
+---
+
+## 2. Add an architecture graph (diagram) to the README
+
+Here’s a **Mermaid diagram** of the overall architecture. GitHub and many renderers support Mermaid directly.  
+
+👉 **Where to place it:**  
+Put this right after **`### 1.1 Components`** as a new subsection, e.g. `### 1.2 Architecture Diagram`.
+
+```markdown
+### 1.2 Architecture Diagram
 
 ```mermaid
 flowchart LR
@@ -35,4 +62,3 @@ flowchart LR
     CONFIG --> GRADIO
     CONFIG --> RAG
     CONFIG --> LANGGRAPH
-```
