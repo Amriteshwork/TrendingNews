@@ -1,4 +1,3 @@
-````markdown
 # 📄 Resume Assessment Agent
 
 An AI-powered agent that ingests resumes in multiple formats (PDF, DOCX, images, plain text), compares them with a given Job Description (JD), and produces:
@@ -751,4 +750,3 @@ It’s a strong demonstration of:
 - Real-world integration  
 - Safety & guardrails  
 - Advanced LLM-based agent techniques
-````
