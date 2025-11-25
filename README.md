@@ -62,5 +62,4 @@ flowchart LR
     CONFIG --> GRADIO
     CONFIG --> RAG
     CONFIG --> LANGGRAPH
-
 ```
